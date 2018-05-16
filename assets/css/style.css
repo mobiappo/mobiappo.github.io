@@ -640,6 +640,12 @@
 		color: rgba(255,255,255,.75);
 	}
 
+	#text-wrapper {
+		position: relative;
+		background: #f5f7fa;
+		padding: 6em 0 4em 0;
+	}
+
 		#featured-wrapper h2,
 		#featured-wrapper h3 {
 			color: #fff;
@@ -837,4 +843,8 @@
 
 		#featured p {
 			line-height: 1.8em;
+		}
+
+		.date {
+			font-size: 12pt;
 		}
