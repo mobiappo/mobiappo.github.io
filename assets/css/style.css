@@ -39,6 +39,11 @@
 	}
 
 	h3 {
+		font-size: 1.3em;
+		margin: 0 0 0.5em 0;
+	}
+
+	h4 {
 		font-size: 1.1em;
 		margin: 0 0 0.5em 0;
 	}
@@ -196,6 +201,29 @@
 			}
 
 				ul.style2 a:hover {
+					text-decoration: none;
+				}
+
+		ul.dots {
+			margin: 1em;
+			padding: 0em 0em 0em 0em;
+			list-style: square;
+		}
+
+			ul.dots li {
+				padding-top: 0.70em;
+			}
+
+			ul.dots li:first-child {
+				padding-top: 0;
+			}
+
+			ul.dots a {
+				text-decoration: underline;
+				color: #e7e9eb;
+			}
+
+				ul.dots a:hover {
 					text-decoration: none;
 				}
 
@@ -848,3 +876,8 @@
 		.date {
 			font-size: 12pt;
 		}
+
+
+	.font-white {
+		color: #FFF;
+	}
